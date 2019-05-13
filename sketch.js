@@ -107,7 +107,7 @@ function gotNewInputImg() {
 function useWebcam() {
   if (!video) {
     // webcam video
-    video = createCapture(VIDEO);
+    video = createVideo(VIDEO);
     video.size(250, 250);
     video.parent('input-source');
   }
